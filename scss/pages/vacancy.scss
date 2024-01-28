@@ -1,0 +1,346 @@
+@use "../global";
+@use "../utils/variables" as var;
+
+header {
+  position: fixed;
+  left: 0;
+  right: 0;
+  padding: 15px;
+  box-shadow: 0 0 5px 5px rgb(137, 137, 137);
+  background-color: white;
+  z-index: 1;
+}
+
+.nav {
+  &__all {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  &__logo {
+    width: 200px;
+  }
+  &__logo-768 {
+    display: none;
+  }
+  &__btn-1 {
+    max-width: 140px;
+    background-color: var.$secondary-color;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 8px;
+    border-radius: 5px;
+    color: white;
+    font-size: 17px;
+  }
+  &__btn-2 {
+    display: none;
+    background-color: var.$secondary-color;
+    padding: 8px;
+    border-radius: 5px;
+  }
+  &__input {
+    display: flex;
+    position: relative;
+    input {
+      padding: 10px;
+      border: 2px solid var.$secondary-color;
+      border-radius: 5px;
+      width: 300px;
+    }
+  }
+  &__input-img {
+    position: absolute;
+    right: 5px;
+    top: 8px;
+  }
+  &__list-1 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5px;
+    a {
+      color: var.$text-color;
+      font-weight: 400;
+    }
+  }
+  &__list-11 {
+    position: absolute;
+    top: -5px;
+    right: 17px;
+    width: 15px;
+    height: 15px;
+    text-align: center;
+    background-color: var.$primary-color;
+    border-radius: 10px;
+    h6 {
+      color: white;
+    }
+  }
+  &__login {
+    display: flex;
+    align-items: center;
+  }
+  &__login-img {
+    margin-right: 10px;
+  }
+  &__login-title {
+    color: var.$text-color;
+    font-weight: 400;
+    padding-right: 25px;
+  }
+  &__login-1 {
+    display: none;
+  }
+}
+
+input::placeholder {
+  color: black;
+  font-size: 15px;
+}
+
+main {
+  background-color: #fbf8ec;
+}
+
+#hero {
+  padding-top: 100px;
+}
+
+.hero {
+  &__top {
+    padding-bottom: 30px;
+  }
+  &__top-1 {
+    color: black;
+    font-weight: 700;
+  }
+  &__top-2 {
+    color: var.$text-color;
+  }
+  &__center-1 {
+    color: var.$text-color;
+    font-size: 48px;
+    font-weight: 700;
+    padding-bottom: 40px;
+  }
+  &__card {
+    max-width: 376px;
+    padding: 25px;
+    background-color: white;
+    h1 {
+      color: var.$text-color;
+      font-weight: 600;
+      padding-bottom: 15px;
+    }
+    p {
+      color: var.$text-color;
+      line-height: 24px;
+      padding-bottom: 10px;
+    }
+  }
+  &__card-1 {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    h3 {
+      color: var.$text-color;
+      font-weight: 400;
+      text-decoration: underline;
+    }
+  }
+  &__row {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    padding-bottom: 30px;
+  }
+}
+
+footer {
+  background-color: #f9f4e2;
+}
+
+.footer {
+  &__bg {
+    background-image: url(../../assets/images/footer-bg.svg);
+    background-size: 100%;
+  }
+  &__all {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 15px 0;
+    a {
+      color: black;
+    }
+  }
+  &__logo {
+    margin-right: 40px;
+  }
+  &__list {
+    display: flex;
+    align-items: center;
+    gap: 35px;
+    list-style: none;
+  }
+  &__icon {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-left: 30px;
+  }
+  &__call {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    h4 {
+      font-weight: 400;
+      font-size: 13px;
+    }
+  }
+  &__bottom {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 10px;
+    padding-bottom: 10px;
+    h4 {
+      font-weight: 400;
+    }
+  }
+}
+
+.nav__res {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+}
+
+.nav__responsive {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  gap: 10px;
+  background-color: white;
+}
+
+.nav__list-2 {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 5px;
+  h4 {
+    font-weight: 400;
+  }
+}
+.nav__list-22 {
+  position: absolute;
+  top: -5px;
+  right: 17px;
+  width: 15px;
+  height: 15px;
+  text-align: center;
+  background-color: var.$primary-color;
+  border-radius: 10px;
+  h6 {
+    color: white;
+  }
+}
+
+@media (max-width: 1000px) {
+  .footer__list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    overflow: hidden;
+  }
+  .footer__icon {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 800px) {
+  .nav__logo {
+    display: none;
+  }
+  .nav__logo-768 {
+    display: flex;
+  }
+  .nav__btn-1 {
+    display: none;
+  }
+  .nav__btn-2 {
+    display: flex;
+  }
+  .nav__login-1 {
+    display: flex;
+  }
+  .nav__login {
+    display: none;
+  }
+}
+
+@media (max-width: 700px) {
+  .hero__row {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .nav__list-1 {
+    display: none;
+  }
+  .footer__all {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  .footer__icon {
+    padding: 0;
+  }
+  .footer__logo {
+    margin: 0;
+  }
+}
+
+@media (max-width: 550px) {
+  .nav__input input {
+    width: 200px;
+  }
+}
+
+@media (max-width: 420px) {
+  .nav__login-1 {
+    display: none;
+  }
+  .nav__btn-2 {
+    display: none;
+  }
+  .nav__res {
+    display: inline;
+  }
+  .nav__all {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+  }
+  .hero__row {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
