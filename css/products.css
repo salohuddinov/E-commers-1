@@ -100,6 +100,7 @@ header {
 }
 .nav__input input {
   padding: 10px;
+  border: 2px solid #70C05B;
   border-radius: 5px;
   width: 300px;
 }
@@ -199,7 +200,6 @@ input::placeholder {
 }
 
 .new__card-img {
-  padding-top: 10px;
   width: 100%;
   border-radius: 10px;
 }

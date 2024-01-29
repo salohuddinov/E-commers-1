@@ -65,7 +65,7 @@ header {
 
         input {
             padding: 10px;
-            // border: 2px solid var.$secondary-color;
+            border: 2px solid var.$secondary-color;
             border-radius: 5px;
             width: 300px;
         }
@@ -142,7 +142,6 @@ input::placeholder {
 }
 
 .new__card-img {
-    padding-top: 10px;
     width: 100%;
     border-radius: 10px;
 }
