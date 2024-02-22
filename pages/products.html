@@ -16,43 +16,48 @@
             <div class="nav__all">
                 <a href="../index.html"><img class="nav__logo" src="../assets/images/logo.svg" alt="ibnmg" /></a>
                 <a href="../index.html"><img class="nav__logo-768" src="../assets/images/768-logo.svg" alt="ibnm" /></a>
-                <a href="#" class="nav__btn-1">
-                    <img class="nav__btn-img" src="../assets/images/menu.svg" alt="ibnm" />Каталог
-                </a>
+                <div class="nav__btn-1">
+                    <button id="toggle-btn">
+                        <img src="../assets/images/menu.svg" alt="jskaiha">
+                    </button>
+                    <a href="../pages/category.html">Каталог</a>
+                </div>
                 <a href="../pages/category.html" class="nav__btn-2">
                     <img class="nav__btn-img" src="../assets/images/menu.svg" alt="ibnm" />
                 </a>
                 <div class="nav__input">
                     <div class="input-group">
                         <input class="search-input form-control" type="text" placeholder="Найти товар"
-                            class="form-control" /><img class="nav__input-img" src="assets/images/search.svg"
+                            class="form-control" /><img class="nav__input-img" src="../assets/images/search.svg"
                             alt="jskaiha" />
-                        <select class="form-select price-sort">
-                            <option value="initial">Initial</option>
-                            <option value="asc">Price (asc)</option>
-                            <option value="desc">Price (desc)</option>
+                        <select class="price-sort">
+                            <option class="sort__option" value="initial">Initial</option>
+                            <option class="sort__option" value="asc">Price (asc)</option>
+                            <option class="sort__option" value="desc">Price (desc)</option>
                         </select>
                     </div>
                 </div>
             </div>
             <div class="nav__list-1">
                 <img src="../assets/images/love.svg" alt="ibnm" />
-                <a href="pages/favorites.html">Избранное</a>
+                <a href="../pages/favorites.html">Избранное</a>
             </div>
             <div class="nav__list-1">
                 <img src="../assets/images/product.svg" alt="ibnm" />
-                <a href="pages/products.html">продукты</a>
+                <a href="#">продукты</a>
             </div>
             <div class="nav__list-1">
-                <img src="../assets/images/shopping-cart.svg" alt="ibnm" />
-                <a href="pages/korzina.html">Корзина</a>
-                <div class="nav__list-11">
-                    <h6>1</h6>
-                </div>
+                <a href="../pages/korzina.html" class="btn  position-relative">
+                    <img src="../assets/images/shopping-cart.svg" alt="ibnm" />
+                    <a class="nav__bg" href="../pages/korzina.html">Корзина</a>
+                    <span
+                        class="   translate-middle badge rounded-pill bg-danger cart-quantity">
+                    </span>
+                </a>
             </div>
             <div class="nav__login">
                 <img class="nav__login-img" src="../assets/images/nav-brat.svg" alt="ibnm" />
-                <a href="#pages/login.html" class="nav__login-title">Алексей</a>
+                <a href="../pages/login.html" class="nav__login-title">Алексей</a>
                 <img class="nav__login-img" src="../assets/images/chevron-down.svg" alt="ibnm" />
             </div>
             <div class="nav__login-1">
@@ -61,12 +66,14 @@
             </div>
         </nav>
     </header>
-    <div class="container m-auto">
-        <h3 class="alert alert-info">
+    <div class="container">
+        <br>
+        <h3 class="alert">
             Mahsulotlar soni: <span class="products-quantity"></span>
         </h3>
-        <div class="row products-row mb-4 mt-5"></div>
+        <div class="row products-row"></div>
         <ul class="pagination"></ul>
+
     </div>
 
     <footer>
@@ -138,6 +145,7 @@
     <script src="../js/products.js/categories-data.js"></script>
     <script src="../js/products.js/const.js"></script>
     <script src="../js/products.js/main.js"></script>
+    <script src="../js/products.js/home.js"></script>
 </body>
 
 </html>

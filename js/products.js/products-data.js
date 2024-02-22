@@ -4,7 +4,7 @@ const products = [
     name: "Apple",
     category: "Fruit",
     description: "A round fruit with a red, green, or yellow ",
-    price: 89,
+    price: "599, 99 ₽",
     rating: 5,
     discount: 0,
     images: [
@@ -20,7 +20,7 @@ const products = [
     category: "Fruit",
     description:
       "A long, curved fruit with a yellow skin and sweet, creamy white flesh.",
-    price: 71,
+    price: "421, 99 ₽",
     rating: 5,
     discount: 20,
     images: [
@@ -36,7 +36,7 @@ const products = [
     category: "Bakery",
     description:
       "A staple food made from flour, water, and yeast, baked into a loaf.",
-    price: 88,
+    price: "59, ₽",
     rating: 5,
     discount: 20,
     images: [
@@ -52,7 +52,7 @@ const products = [
     category: "Vegetable",
     description:
       "A green vegetable with a tree-like appearance, known for its high nutrient content.",
-    price: 94,
+    price: "5,99 ₽",
     rating: 4.5,
     discount: 20,
     images: [
@@ -68,7 +68,7 @@ const products = [
     category: "Vegetable",
     description:
       "A root vegetable with a crunchy texture and a sweet, earthy flavor.",
-    price: 82,
+    price: "137,44 ₽",
     rating: 5,
     discount: 20,
     images: [
@@ -84,7 +84,7 @@ const products = [
     category: "Dairy",
     description:
       "A dairy product made from milk, with a variety of textures and flavors.",
-    price: 91,
+    price: " 34 ₽",
     rating: 3.5,
     discount: 50,
     images: [
@@ -100,7 +100,7 @@ const products = [
     category: "Meat",
     description:
       "A type of poultry, often used as a source of protein in meals.",
-    price: 68,
+    price: "689 ₽",
     rating: 3.5,
     discount: 20,
     images: [
@@ -116,7 +116,7 @@ const products = [
     category: "Dessert",
     description:
       "A sweet food made from cacao beans, used in a variety of desserts and confections.",
-    price: 61,
+    price: " 77 ₽",
     rating: 4.5,
     discount: 20,
     images: [
@@ -132,7 +132,7 @@ const products = [
     category: "Dessert",
     description:
       "A dark, bitter beverage made from roasted coffee beans, typically used as a pick-me-up.",
-    price: 98,
+    price: "59, 99 ₽",
     rating: 5,
     discount: 20,
     images: [
@@ -148,7 +148,7 @@ const products = [
     category: "Dairy",
     description:
       "A oval-shaped reproductive body produced by birds, often used as a source of protein in meals.",
-    price: 79,
+    price: "59 99 ₽",
     rating: 4.5,
     discount: 0,
     images: [
@@ -164,7 +164,7 @@ const products = [
     category: "Meat",
     description:
       "A type of seafood, known for its omega-3 fatty acids and high protein content.",
-    price: 89,
+    price: "44 ₽",
     rating: 3.5,
     discount: 50,
     images: [
@@ -180,7 +180,7 @@ const products = [
     category: "Fruit",
     description:
       "A small, sweet fruit that grows in clusters, often used in wine-making.",
-    price: 61,
+    price: "59, 88 ₽",
     rating: 4,
     discount: 20,
     images: [
@@ -196,7 +196,7 @@ const products = [
     category: "Fast food",
     description:
       "A sandwich made with a patty of ground beef, served on a bun with various toppings.",
-    price: 87,
+    price: "345 ₽",
     rating: 5,
     discount: 0,
     images: [
@@ -212,7 +212,7 @@ const products = [
     category: "Fast food",
     description:
       "A type of sausage served in a long roll, often used as a quick and convenient food.",
-    price: 84,
+    price: "557 ₽",
     rating: 4.5,
     discount: 50,
     images: [
@@ -228,7 +228,7 @@ const products = [
     category: "Dessert",
     description:
       "A frozen dessert made from cream, sugar, and flavorings, available in a variety of flavors.",
-    price: 68,
+    price: "865 ₽",
     rating: 4.5,
     discount: 0,
     images: [
@@ -244,7 +244,7 @@ const products = [
     category: "Fruit",
     description:
       "A yellow citrus fruit with a tart, acidic flavor, often used in cooking and baking.",
-    price: 74,
+    price: "599,65 ₽",
     rating: 3.5,
     discount: 0,
     images: [
@@ -260,7 +260,7 @@ const products = [
     category: "Dairy",
     description:
       "Eggs are oval-shaped reproductive structures produced by female birds and some reptiles.",
-    price: 70,
+    price: "949 ₽",
     rating: 4.5,
     discount: 50,
     images: [
@@ -276,7 +276,7 @@ const products = [
     category: "Dairy",
     description:
       "Honey is a sweet, sticky liquid made by bees from the nectar of flowers.",
-    price: 87,
+    price: "42 ₽",
     rating: 4,
     discount: 0,
     images: [
@@ -292,7 +292,7 @@ const products = [
     category: "Dessert",
     description:
       "Ice cream is a frozen dessert made from cream, sugar, and flavorings.",
-    price: 83,
+    price: "7,45 ₽",
     rating: 4.5,
     discount: 0,
     images: [
@@ -308,7 +308,7 @@ const products = [
     category: "Fruit",
     description:
       "Jelly is a sweet spread made from fruit juice and sugar, often used as a topping for toast or pastries.",
-    price: 76,
+    price: "9, 305 ₽",
     rating: 5,
     discount: 0,
     images: [
@@ -324,7 +324,7 @@ const products = [
     category: "Dairy",
     description:
       "Ketchup is a tangy sauce made from tomatoes, vinegar, sugar, and spices.",
-    price: 77,
+    price: "8,559  ₽",
     rating: 5,
     discount: 0,
     images: [
@@ -340,7 +340,7 @@ const products = [
     category: "Fruit",
     description:
       "Mangoes are juicy, sweet tropical fruits with a fleshy interior and a large, oblong seed in the center.",
-    price: 80,
+    price: "339, 44 ₽",
     rating: 5,
     discount: 20,
     images: [
@@ -356,7 +356,7 @@ const products = [
     category: "Meat",
     description:
       "Noodles are a type of pasta made from wheat flour and water, often used in Asian cuisine.",
-    price: 93,
+    price: "56, 94 ₽",
     rating: 3.5,
     discount: 20,
     images: [
@@ -372,7 +372,7 @@ const products = [
     category: "Breakfast",
     description:
       "Oatmeal is a type of porridge made from oats that is often served for breakfast.",
-    price: 94,
+    price:  "5 ₽",
     rating: 4.5,
     discount: 0,
     images: [
@@ -388,7 +388,7 @@ const products = [
     category: "Breakfast",
     description:
       "Bacon is a popular breakfast food made from cured pork belly, it is newly delivered.",
-    price: 71,
+    price: "88,888 ₽",
     rating: 3.5,
     discount: 20,
     images: [
@@ -404,7 +404,7 @@ const products = [
     category: "Breakfast",
     description:
       "Pancakes are a popular breakfast food made from flour, eggs, and milk.",
-    price: 63,
+    price: "999,99 ₽",
     rating: 4,
     discount: 0,
     images: [
@@ -420,7 +420,7 @@ const products = [
     category: "Breakfast",
     description:
       "Waffles are a type of breakfast food made from batter cooked in a waffle iron.",
-    price: 97,
+    price: "976, 99 ₽",
     rating: 4.5,
     discount: 20,
     images: [
@@ -436,7 +436,7 @@ const products = [
     category: "Lunch",
     description:
       "Fried Rice is a type of rice dish that is stir-fried in a pan with oil and other ingredients.",
-    price: 81,
+    price: "74, 579 ₽",
     rating: 4,
     discount: 20,
     images: [
@@ -452,7 +452,7 @@ const products = [
     category: "Lunch",
     description:
       "Spaghetti is a type of pasta made from wheat flour and water, usually served with sauce.",
-    price: 96,
+    price: "45, 856 ₽",
     rating: 3,
     discount: 50,
     images: [
@@ -468,7 +468,7 @@ const products = [
     category: "Lunch",
     description:
       "Pizza is a popular dish made from dough, sauce, cheese, and toppings.",
-    price: 95,
+    price: "62, 99 ₽",
     rating: 4,
     discount: 0,
     images: [
@@ -484,7 +484,7 @@ const products = [
     category: "Lunch",
     description:
       "A grilled cheese sandwich is a hot sandwich made from cheese and bread.",
-    price: 100,
+    price: "473, 99 ₽",
     rating: 5,
     discount: 50,
     images: [
@@ -500,7 +500,7 @@ const products = [
     category: "Dinner",
     description:
       "Steak is a popular dinner dish made from a cut of beef that is usually grilled or pan-fried.",
-    price: 63,
+    price: "539, 99 ₽",
     rating: 4.5,
     discount: 20,
     images: [
@@ -516,7 +516,7 @@ const products = [
     category: "Dinner",
     description:
       "Salmon is a type of fish that is often grilled or baked and served as a main course.",
-    price: 82,
+    price: "547, 99 ₽",
     rating: 4.5,
     discount: 20,
     images: [
@@ -532,7 +532,7 @@ const products = [
     category: "Dinner",
     description:
       "Chicken Alfredo is a pasta dish made with chicken, alsjfkdlkasdfhlkjh.",
-    price: 94,
+    price: "423, 99 ₽",
     rating: 4,
     discount: 20,
     images: [
@@ -548,7 +548,7 @@ const products = [
     category: "Dinner",
     description:
       "Lasagna is a type of pasta dish made with layers of pasta, sauce, cheese, and meat or vegetables.",
-    price: 70,
+    price: "864, 99 ₽",
     rating: 1,
     discount: 0,
     images: [
@@ -563,8 +563,8 @@ const products = [
     name: "Chocolate Chip Cookies",
     category: "Dessert",
     description:
-      "Chocolate Chip Cookies are a type of cookie made from flour, sugar, butter, and chocolate chips.",
-    price: 98,
+      "Chocolate Chip are a type of cookie made from flour, sugar, butter, and chocolate chips.",
+    price: "98, 99 ₽",
     rating: 3.5,
     discount: 0,
     images: [

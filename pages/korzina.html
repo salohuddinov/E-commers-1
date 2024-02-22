@@ -1,12 +1,148 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>KORZINA</title>
-    <link rel="stylesheet" href="../css/korzina.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+    <link rel="stylesheet" href="../css/korzina.css" />
 </head>
-<body>
-    <h1>Корзина</h1>
+
+<body class="common">
+    <header>
+        <nav class="container-1250 nav">
+            <div class="nav__all">
+                <a href="../index.html"><img class="nav__logo" src="../assets/images/logo.svg" alt="ibnmg" /></a>
+                <a href="../index.html"><img class="nav__logo-768" src="../assets/images/768-logo.svg" alt="ibnm" /></a>
+                <div class="nav__btn-1">
+                    <button id="toggle-btn">
+                        <img src="../assets/images/menu.svg" alt="jskaiha">
+                    </button>
+                    <a href="../pages/category.html">Каталог</a>
+                </div>
+                <a href="../pages/category.html" class="nav__btn-2">
+                    <img class="nav__btn-img" src="../assets/images/menu.svg" alt="ibnm" />
+                </a>
+                <div class="nav__input">
+                    <div class="input-group">
+                        <input class="search-input form-control" type="text" placeholder="Найти товар"
+                            class="form-control" /><img class="nav__input-img" src="../assets/images/search.svg"
+                            alt="jskaiha" />
+                        <select class="price-sort">
+                            <option class="sort__option" value="initial">Initial</option>
+                            <option class="sort__option" value="asc">Price (asc)</option>
+                            <option class="sort__option" value="desc">Price (desc)</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="nav__list-1">
+                <img src="../assets/images/love.svg" alt="ibnm" />
+                <a href="../pages/favorites.html">Избранное</a>
+            </div>
+            <div class="nav__list-1">
+                <img src="../assets/images/product.svg" alt="ibnm" />
+                <a href="../pages/products.html">продукты</a>
+            </div>
+            <div class="nav__list-1">
+                <a href="../pages/korzina.html" class="btn  position-relative">
+                    <img src="../assets/images/shopping-cart.svg" alt="ibnm" />
+                    <a class="nav__bg" href="#">Корзина</a>
+                    <span class="   translate-middle badge rounded-pill bg-danger cart-quantity">
+                    </span>
+                </a>
+            </div>
+            <div class="nav__login">
+                <img class="nav__login-img" src="../assets/images/nav-brat.svg" alt="ibnm" />
+                <a href="../pages/login.html" class="nav__login-title">Алексей</a>
+                <img class="nav__login-img" src="../assets/images/chevron-down.svg" alt="ibnm" />
+            </div>
+            <div class="nav__login-1">
+                <img class="nav__login-img" src="../assets/images/nav-brat.svg" alt="ibnm" />
+            </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <div class="container-1250">
+                <br>
+                <div class="row cart-products">
+
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer__bg">
+            <div class="container-1250">
+                <div class="footer__all">
+                    <img class="footer__logo" src="../assets/images/footer-logo.svg" alt="ibnm" />
+                    <ul class="footer__list">
+                        <li class="footer__item">
+                            <a href="#pages/about.html">О компании</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="#pages/contact.html">Контакты</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="#pages/vacancy.html">Вакансии</a>
+                        </li>
+                        <li class="footer__item">Статьи</li>
+                        <li class="footer__item">
+                            Политика обработки персональных данных
+                        </li>
+                    </ul>
+                    <div class="footer__icon">
+                        <img src="../assets/images/instagram.svg" alt="ibnm" />
+                        <img src="../assets/images/vkontakte.svg" alt="ibnm" />
+                        <img src="../assets/images/facebook.svg" alt="ibnm" />
+                        <img src="../assets/images/ok.svg" alt="ibnm" />
+                    </div>
+                    <div class="footer__call">
+                        <img src="../assets/images/phone.svg" alt="ibnm" />
+                        <h4>8 800 777 33 33</h4>
+                    </div>
+                </div>
+                <div class="footer__bottom">
+                    <h4>Дизайн</h4>
+                    <img src="../assets/images/zasovskiy.svg" alt="ibnm" />
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="nav__res">
+        <div class="nav__responsive">
+            <div class="nav__list-2">
+                <img src="../assets/images/menu-black.svg" alt="ibnm" />
+                <h4>Каталог</h4>
+            </div>
+            <div class="nav__list-2">
+                <img src="../assets/images/love.svg" alt="ibnm" />
+                <h4>Избранное</h4>
+            </div>
+            <div class="nav__list-2">
+                <img src="../assets/images/product.svg" alt="ibnm" />
+                <h4>продукты</h4>
+            </div>
+            <div class="nav__list-2">
+                <img src="../assets/images/shopping-cart.svg" alt="ibnm" />
+                <h4>Корзина</h4>
+                <div class="nav__list-22">
+                    <h6>1</h6>
+                </div>
+            </div>
+            <img src="../assets/images/nav-brat.svg" alt="ibnm" />
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <script src="../js/products.js/const.js"></script>
+    <script src="../js/products.js/main.js"></script>
+    <script src="../js/products.js/cart.js"></script>
 </body>
+
 </html>
